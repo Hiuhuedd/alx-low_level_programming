@@ -1,4 +1,3 @@
-#!/bin/bash
 /**
  * main - main block
  * Return: 0
