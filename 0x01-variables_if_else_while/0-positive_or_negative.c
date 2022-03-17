@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - ehere the program starts
+ * Return: prints the sign and value of n
+*/
 int main(void)
 {
 	int n;
