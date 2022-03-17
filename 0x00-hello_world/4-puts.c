@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
-* main - Where programs are executed
-* return 0
+* main -Where programs are execute`d
+* return: 0
 */
 int main(void)
 {
