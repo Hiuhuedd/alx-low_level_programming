@@ -1,19 +1,23 @@
-#include <unistd.h>
-#include "main.h"
+#include <stdio.h>
 
 /**
-* print_alphabet - prints the alphabets
-*
-* Return: returns 0
-*/
+ * main -where program starts
+ *
+ * Return: returns 0
+ */
 
+int main(void)
+{
+	print_alphabet(void);
+	return (0);
+}
 void print_alphabet(void)
-{
-char alpha;
 
-for (alpha = 'a'; alpha <= 'z'; alpha++)
-{
-_putchar (alpha);
-}
-_putchar ('\n');
-}
+	{
+	char *c = "abcdefghijklmnopqrstuvwxyz\n";
+
+	while (*c)
+	{
+	putchar(*c++);
+	}
+	}
