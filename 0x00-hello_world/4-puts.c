@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
-* main
+* main - Where programs are executed
 * return 0
 */
 int main(void)
