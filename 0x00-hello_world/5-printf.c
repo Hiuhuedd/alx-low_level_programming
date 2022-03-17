@@ -3,7 +3,7 @@
 /**
  * main -where function is called
  *
- * Return 0
+ * Return: returns 0 after printing
  */
 
 int main(void)
