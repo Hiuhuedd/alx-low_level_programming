@@ -1,9 +1,9 @@
 #include<stdio.h>
 
 /**
- * main
+ * main - Entry point
  *
- * Return: returns 0 after printing the sizes
+ * Return: Always 0 (Success)
  */
 
 int main(void)
