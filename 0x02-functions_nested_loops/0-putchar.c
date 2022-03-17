@@ -1,21 +1,27 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * main - Prints Holberton
+ * main -where the function starts
  *
- * Return: Always 0 (Success)
+ * Return: returns the function
  */
+
 int main(void)
+
 {
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
-return (0);
+char char_arr[8];
+
+int arrLen = sizeof char_arr;
+
+char_arr = "_putchar\n";
+int i = 0;
+
+while (i < arrLen)
+	{	
+	putchar(char_arr);
+	char_arr ++
+	i++
+	}
+	return (0)
 }
+ 
