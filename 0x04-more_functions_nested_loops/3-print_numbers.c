@@ -8,14 +8,10 @@
 
 void print_numbers(void)
 {
-int i = 0;
-while (i < 10)
-	{	
-	putchar(i*);
-	i++
-	}
-return (0)
-
+int i;
+for(i = "0"; i <= "9"; i++)
+	putchar(i);
+return (0);
 
 }
 
