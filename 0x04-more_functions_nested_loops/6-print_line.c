@@ -1,27 +1,18 @@
-#include <stdio.h>
 #include "main.h"
 
-
 /**
- * void print_line(int n) prints n numver of _
- *
- * Return: returns 0
- */
+* print_line - draws a straight line in the terminal.
+* @n: number of lines
+* Return: returns 0
+*/
 
 void print_line(int n)
 {
-int i = 0;
-while (i < n)
-{
-if(n > 0)
+int i;
+
+for (i = 0; i < n; i++)
 {
 _putchar('_');
-}
-else
-{
-_putchar('\n');
-}
-i++;
 }
 _putchar('\n');
 }
