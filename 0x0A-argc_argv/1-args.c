@@ -1,18 +1,14 @@
-#include <stdio.h>
 #include <stdlib.h>
-
+#include <stdio.h>
 /**
- * main - prints the number of arguments passed
- *
- * argc - offset count
- * argv - offset vector
- *
- * return 0
- */
-
-int main(int argc char *argv[])
+* main - prints the argument count
+* @argc: offset count
+* @argv: offset value
+* Return: 0
+*/
+int main(int argc, char *argv[])
 {
-	(void)argc;
-	printf("%s\n",argc);
-	return 0;
+printf("%d\n", argc - 1);
+(void)argv;
+return (0);
 }
